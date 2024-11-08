@@ -3,8 +3,8 @@ import { collabApps, collabContent, collabText } from "../constants";
 import Button from "./Button";
 import Section from "./Section";
 
-import { LeftCurve, RightCurve} from "./design/Collaboration";
-import { GradientLight } from "./design/benefit";
+//import { LeftCurve, RightCurve} from "./design/Collaboration";
+//import { GradientLight } from "./design/benefit";
 
 const Collaboration = () => {
   return ( 
@@ -15,7 +15,6 @@ const Collaboration = () => {
             Boost Your Brand with Engaging Visual Content
             </h2>
             
-            <GradientLight />
 
             <ul className='max-w-[22rem] mb-10 md:mn-14'>
                 {collabContent.map ((item) => (
@@ -89,8 +88,7 @@ const Collaboration = () => {
                         </li>
                     ))}
                 </ul>
-                <LeftCurve />
-                <RightCurve />
+            
             </div>
         </div>
     </div>
