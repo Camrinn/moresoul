@@ -3,7 +3,7 @@ import Section from "./Section"
 import Heading from "./Heading"
 import PricingList from "./PricingList"
 import { LeftLine, RightLine } from './design/Pricing';
-import { GradientLight } from "./design/benefits";
+import { GradientLight } from "./design/benefit";
 
 const Pricing = () => {
   return (

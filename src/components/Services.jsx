@@ -3,7 +3,7 @@ import { brainwaveServices, brainwaveServicesIcons } from "../constants"
 import Heading from "./Heading"
 import Section from "./Section"
 import { PhotoChatMessage, Gradient, VideoBar, VideoChatMessage } from './design/Services';
-import { GradientLight } from "./design/benefits";
+import { GradientLight } from "./design/benefit";
 
 const Services = () => {
   return (
