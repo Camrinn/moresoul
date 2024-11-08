@@ -1,6 +1,7 @@
 import ButtonGradient from '../public/ButtonGradient';
 import Benefits from './components/benefit';
 import Collaboration from './components/Collaboration';
+import ContactForm from './components/ContactForm';
 import Footer from './components/Footer';
 import Header from './components/Header';
 import Hero from './components/Hero';
@@ -18,6 +19,7 @@ const App = () => {
         <Collaboration />
         <Services />
         <Pricing />
+        <ContactForm />
         <Footer />
       </div>
 
