@@ -41,7 +41,7 @@ const ContactForm: React.FC = () => {
           placeholder="Name"
           value={formData.name}
           onChange={handleChange}
-          className="w-full p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-[#2E294E]"
+          className="w-full p-3 border border-gray-300 rounded-md focus:outline-none text-black focus:ring-2 focus:ring-[#2E294E]"
           required
         />
 
@@ -51,7 +51,7 @@ const ContactForm: React.FC = () => {
           placeholder="Phone Number"
           value={formData.phone}
           onChange={handleChange}
-          className="w-full p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-[#2E294E]"
+          className="w-full p-3 border border-gray-300 rounded-md focus:outline-none text-black focus:ring-2 focus:ring-[#2E294E]"
         />
 
         <input
@@ -60,7 +60,7 @@ const ContactForm: React.FC = () => {
           placeholder="Email"
           value={formData.email}
           onChange={handleChange}
-          className="w-full p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-[#2E294E]"
+          className="w-full p-3 border border-gray-300 rounded-md focus:outline-none text-black focus:ring-2 focus:ring-[#2E294E]"
           required
         />
 
@@ -69,7 +69,7 @@ const ContactForm: React.FC = () => {
           placeholder="Message"
           value={formData.message}
           onChange={handleChange}
-          className="w-full p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-[#2E294E] h-32"
+          className="w-full p-3 border border-gray-300 rounded-md focus:outline-none text-black focus:ring-2 focus:ring-[#2E294E] h-32"
           required
         ></textarea>
 
