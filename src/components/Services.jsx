@@ -1,9 +1,9 @@
-//import { service1, service2, service3, check } from "../../../assets"
+import checkUrl from "@/assets/check.svg?url"; // Import as URL
 import { brainwaveServices, brainwaveServicesIcons } from "../constants"
 import Heading from "./Heading"
 import Section from "./Section"
 import { PhotoChatMessage, Gradient, VideoBar, VideoChatMessage } from './design/Services';
-import { GradientLight } from "./design/benefit";
+//import { GradientLight } from "./design/benefit";
 
 const Services = () => {
   return (
@@ -43,7 +43,7 @@ const Services = () => {
                         >
                             <img 
                             width={24} 
-                            src={check}
+                            src={checkUrl}
                             height={24}
                              />
                             <p className="ml-4">{item}</p>

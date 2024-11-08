@@ -1,4 +1,4 @@
-//import { check } from "../../../assets";
+import checkUrl from "@/assets/check.svg?url"; // Import as URL
 import { pricing } from "../constants";
 import Button from "./Button";
 
@@ -45,7 +45,7 @@ const PricingList = () => {
               key={index} 
               className='flex items-start py-5 border-t border-n-6'
               >
-                <img src={check} width={24} height={24} 
+                <img src={checkUrl} width={24} height={24} 
                 alt='Check' />
                 <p className='body-2 ml-4'>{feature}</p>
               </li>

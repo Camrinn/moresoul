@@ -24,7 +24,6 @@ const Footer = () => {
           ))} 
         </ul> 
       </div>
-      <GradientLight />
     </Section>
   );
 };

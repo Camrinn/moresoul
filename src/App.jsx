@@ -1,4 +1,4 @@
-import ButtonGradient from './assets/svg/ButtonGradient';
+import ButtonGradient from '../public/ButtonGradient';
 import Benefits from './components/benefit';
 import Collaboration from './components/Collaboration';
 import Footer from './components/Footer';
