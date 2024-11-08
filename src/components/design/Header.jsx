@@ -1,6 +1,5 @@
-
 import React from 'react';
-//import { background } from 'src/assets/background.jpg'; // Adjust the path to where `background` is located
+import backgroundUrl from "@/assets/background.jpg?url"; // Correct import for background.jpg
 
 export const Rings = () => {
   return (
@@ -36,7 +35,7 @@ export const HamburgerMenu = () => {
       <div className="absolute inset-0 opacity-[.03]">
         <img
           className="w-full h-full object-cover"
-          src='src/assets/background.jpg'
+          src={backgroundUrl} // Use the imported URL
           width={688}
           height={953}
           alt="Background"

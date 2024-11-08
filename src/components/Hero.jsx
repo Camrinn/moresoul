@@ -3,6 +3,7 @@ import Button from './Button';
 import Section from './Section';
 import { BackgroundCircles, BottomLine } from './design/Hero';
 import CompanyLogos from './CompanyLogos';
+import videoUrl from "@/assets/moresoul121.mp4?url"; // Import video as URL
 
 const Hero = () => {
   const videoRef = useRef(null);
@@ -38,7 +39,7 @@ const Hero = () => {
       <div className="absolute inset-0 w-full h-full z-0 overflow-hidden">
         <video
           ref={videoRef}
-          src="src/assets/moresoul121.mp4"
+          src={videoUrl} // Use imported video URL
           className="absolute top-0 left-0 w-full h-full object-cover"
           autoPlay
           muted

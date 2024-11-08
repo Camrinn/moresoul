@@ -1,10 +1,8 @@
 import checkUrl from "@/assets/check.svg?url"; // Import as URL
+import robot23Url from "@/assets/robot23.png?url"; // Correct import for robot23.png
 import { collabApps, collabContent, collabText } from "../constants";
 import Button from "./Button";
 import Section from "./Section";
-
-//import { LeftCurve, RightCurve} from "./design/Collaboration";
-//import { GradientLight } from "./design/benefit";
 
 const Collaboration = () => {
   return ( 
@@ -19,7 +17,7 @@ const Collaboration = () => {
             {collabContent.map((item) => (
               <li className='mb-3 py-3' key={item.id}>
                 <div className='flex items-center'>
-                  <img src={checkUrl} width={24} height={24} alt='check' /> {/* Use checkUrl */}
+                  <img src={checkUrl} width={24} height={24} alt='check' />
                   <h6 className="'body-2 ml-5">{item.title}</h6>
                 </div>
                 {item.text && (
@@ -42,10 +40,10 @@ const Collaboration = () => {
               <div className='w-[6rem] aspect-square m-auto p-[0.2rem] bg-conic-gradient rounded-full'>
                 <div className='flex items-center justify-center w-full h-full bg-black rounded-full'>
                   <img 
-                    src='/assets/robot23.png'  // Corrected path if in public/assets
+                    src={robot23Url}  // Use imported URL
                     width={250}
                     height={250}
-                    alt='moresoul'
+                    alt="moresoul"
                   />
                 </div>
               </div>
