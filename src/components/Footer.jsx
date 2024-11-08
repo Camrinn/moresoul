@@ -1,6 +1,6 @@
 import { socials } from "../constants";
 import Section from "./Section";
-import { GradientLight } from "../design/benefits";
+//import { GradientLight } from "../design/benefits";
 
 const Footer = () => {
   return (
