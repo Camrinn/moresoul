@@ -1,14 +1,9 @@
 import Section from "./Section";
 import Heading from "./Heading";
 import { benefits } from "../constants";
-
 import Arrow from "../assets/svg/Arrow";
-
-import { GradientLight } from "./design/benefits";
-
+import { GradientLight } from "../design/benefit";
 import ClipPath from '../assets/svg/ClipPath';
-
-
 
 const Benefits = () => {
   return ( 
@@ -64,7 +59,7 @@ const Benefits = () => {
                                 width={380}
                                 height={380}
                                 alt={item.imageUrl}
-                                className="w-full h-fulll 
+                                className="w-full h-full 
                                 object-cover"
                                 />
                             )}
@@ -79,4 +74,4 @@ const Benefits = () => {
   )
 }
 
-export default Benefits
+export default Benefits;
